@@ -1,1 +1,11 @@
-console.log(`hello world`)
+
+
+
+
+Vue.createApp({
+    data() {
+      return {
+        message: 'Hello World!'
+      }
+    }
+}).mount('#app')
