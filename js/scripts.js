@@ -1,15 +1,16 @@
 
+const { createApp } = Vue
 
-
-
-Vue.createApp({
-    data() {
-      return {
-        message: 'Hello World!',
-        urlImg: 'https://picsum.photos/200/300'
-      }
+createApp({
+  data() {
+    return {
+      message: 'Hello World!',
+      urlImg: 'https://picsum.photos/200/300'
     }
+  }
 }).mount('#app')
+
+
 
 
 
